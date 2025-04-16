@@ -43,6 +43,20 @@ nav a:hover{
     text-decoration: none;
 }
 
+footer{
+    text-align: center;
+    background: url(../image/footer.jpg);
+    opacity: 0.9;
+    padding: 40px;
+}
+
+.copyright{
+    color: #cccccc;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
 @media screen and (max-width:960px) {
     h1{
         text-align: center;
