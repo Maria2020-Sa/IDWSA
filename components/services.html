@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <link rel="stylesheet" href="../styles/style.css"/>
 </head>
 <body>
     <header>
-        <h1>IDW SA</h1>
-        <nav>
-          <a href="index.html">Inicio</a>
-          <a href="#">Salones</a>
-          <a href="services.html">Servicios</a>
-          <a href="contacts.html">Contacto</a>
-        </nav>
+        <div class="container-portada">
+          <h1 class="title-principal">
+              IDW SA
+          </h1>
+          <nav>
+              <ul class="navegacion">
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../components/us.html">Nosotros</a></li>
+                  <li><a href="../components/services.html">Servicios</a></li>
+                  <li><a href="../components/contacts.html">Contactos</a></li>
+              </ul>
+          </nav>
+        </div>
       </header>
+
       <main>
         <section>
             <h2>Servicios que hacen mágicas tus fiestas</h2>
@@ -60,5 +69,9 @@
             <button onclick="window.location.href='contacts.html'">Solicitar presupuesto</button>
           </section>
       </main>
+
+      <footer>
+        <p class="copyright">&copy Copyright IDW S.A - 2025</p>
+    </footer>
 </body>
 </html>
