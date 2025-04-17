@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>IDW S.A</title>
+        <link rel="stylesheet" href="../styles/reset.css"/>
+        <link rel="stylesheet" href="../styles/style.css"/>
+        <link rel="stylesheet" href="../styles/contacts.css"/>
+    </head>
+
+    <body>
+        <header>
+            <div class="container-portada">
+                <h1 class="title-principal">
+                    IDW SA
+                </h1>
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="/components/us.html">Nosotros</a></li>
+                        <li><a href="/components/services.html">Servicios</a></li>
+                        <li><a href="/components/contacts.html">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="contact-form">
+                <h2>Formulario de Contacto</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre completo:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional):</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Seleccione un asunto</option>
+                            <option value="question">Consulta general</option>
+                            <option value="support">Sobre Reservas</option>
+                            <option value="feedback">Comentarios/Sugerencias</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </section>
+            <section id="direct-contact">
+                <h2>Información de Contacto Directo</h2>
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <h3>Teléfono</h3>
+                        <p><strong>Principal:</strong> +1 (123) 456-7890</p>
+                        <p><strong>Secundario:</strong> +1 (987) 654-3210</p>
+                    </div>
+
+                    <div class="contact-method">
+                        <h3>Correo Electrónico</h3>
+                        <p><strong>General:</strong> info@miempresa.com</p>
+                        <p><strong>Soporte:</strong> soporte@miempresa.com</p>
+                    </div>
+
+                    <div class="contact-method">
+                        <h3>Dirección</h3>
+                        <p>Calle Principal 1234</p>
+                        <p>Ciudad, Estado</p>
+                        <p>Código Postal 12345</p>
+                        <p>País</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="location">
+                <h2>Ubicación</h2>
+                <p>Nuestras oficinas principales se encuentran en:</p>
+                <div class="map-container">
+                    <!-- Mapa interactivo de Google Maps -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291234!2d-73.987844924164!3d40.74844097138992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <section id="hours">
+                <h2>Horarios de Atención</h2>
+                <table>
+                    <tr>
+                        <td><strong>Lunes a Viernes:</strong></td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sábados:</strong></td>
+                        <td>10:00 AM - 2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Domingos y feriados:</strong></td>
+                        <td>Cerrado</td>
+                    </tr>
+                </table>
+                <p><em>Para emergencias fuera de horario, llame al +1 (123) 456-7890</em></p>
+            </section>
+
+            <section id="social">
+                <h2>Redes Sociales</h2>
+                <p>Síguenos en nuestras redes sociales para mantenerte informado:</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="YouTube">YouTube</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright IDW S.A - 2025</p>
+        </footer>
+
+    </body>
+
+</html>
