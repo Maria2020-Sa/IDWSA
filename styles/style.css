@@ -43,6 +43,85 @@ nav a:hover{
     text-decoration: none;
 }
 
+.container-banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#hero-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/banner.jpg);;
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    opacity: 0.9;
+}
+
+#hero-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /*2em le estamos diciendo que queremos dos veces el tamaño padron del navegador*/
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.diferencial{
+    width: 120px;
+    float: left; /*imagen flotante, ubicada a la izquierda*/
+    margin: 0px 20px 20px 0px;
+}
+
+
+
+
+
+
+
+
 footer{
     text-align: center;
     background: url(../image/footer.jpg);
