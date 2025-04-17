@@ -1,0 +1,214 @@
+.fiestas-infantiles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Comic Neue', cursive, sans-serif;
+  }
+
+  .hero-fiesta {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  
+.hero-image {
+    flex-shrink: 0;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Servicios Grid */
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .servicio-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .servicio-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .servicio-image {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .servicio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .servicio-card:hover .servicio-image img {
+    transform: scale(1.1);
+  }
+  
+  .servicio-content {
+    padding: 20px;
+  }
+  
+  .servicio-content h3 {
+    color: #FF6B6B;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .servicio-content p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Por qué elegirnos */
+  .porque-elegirnos {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .porque-elegirnos h2 {
+    font-size: 2.2rem;
+    color: #FF6B6B;
+    margin-bottom: 40px;
+  }
+  
+  .beneficios-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .beneficio {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .beneficio-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .beneficio h4 {
+    color: #FF6B6B;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .beneficio p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #FFD166;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .cta-image {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .cta-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .cta-content {
+    width: 50%;
+  }
+  
+  .cta-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cta-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-content button {
+    background: #FF6B6B;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .cta-content button:hover {
+    background: #FF5252;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-fiesta, .cta-section {
+      flex-direction: column;
+    }
+    
+    .hero-image, .cta-image {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .cta-content {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .servicios-grid {
+      grid-template-columns: 1fr;
+    }
+  }
