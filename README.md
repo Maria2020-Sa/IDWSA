@@ -4,8 +4,6 @@ Trabajo Final Integrador UNER-TUDW
     Romero Francisco Rafael;
     Saracho Maria Eugenia;
     Moyano Malena del Valle;
-    Leyes Paula;
-    Schwindt Nadia Elizabeth.
 
 IDWSA/
 
