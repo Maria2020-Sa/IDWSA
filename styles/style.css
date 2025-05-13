@@ -91,39 +91,32 @@ section {
     color: white;
 }
 
-.principal{
-    padding: 3em 1em;
-    background: #fefefe;
+.mw-940 {
     max-width: 940px;
     width: 100%;
-    margin: 0 auto;
 }
 
-.titulo-principal{
-    text-align: center;
-    font-size: 3em; /*2em le estamos diciendo que queremos dos veces el tamaño padron del navegador*/
-    margin: 0 0 1em;
-    clear: left;
+.principal {
+    background: #fefefe;
 }
 
-.principal p{
-    margin: 0 0 1em;
-    font-size: 1.2rem; /* o por ejemplo 18px */
-    line-height: 1.6;
+.titulo-principal {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50; 
 }
 
-.principal strong{
-    font-weight: bold;
+.principal p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
-.principal em{
-    font-style: italic;
-}
-
-.diferencial{
-    width: 120px;
-    float: left; /*imagen flotante, ubicada a la izquierda*/
-    margin: 0px 20px 20px 0px;
+#mision {
+    background-color: rgba(231, 76, 60, 0.1); 
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #e74c3c; 
 }
 
 

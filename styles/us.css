@@ -1,18 +1,30 @@
-.container {
+.mw-1200 {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
 }
 
-.team-member {
-    text-align: center;
-    margin-bottom: 30px;
+.text-custom {
+  color: #2c3e50 !important;
 }
 
-.team-member img {
+.team-member-img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
     border: 5px solid #e74c3c;
+    transition: transform 0.3s ease; /* Efecto hover */
+}
+
+.team-member-img:hover {
+    transform: scale(1.05);
+}
+
+.team-member-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.team-member-card:hover {
+    background-color: rgba(231, 76, 60, 0.1); 
+    transform: translateY(-5px); 
 }
