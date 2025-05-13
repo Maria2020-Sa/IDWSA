@@ -64,41 +64,52 @@ section {
 }
 
 #hero-banner h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 
-.btn {
+#hero-banner p {
+    font-size: 1.2rem;  /* Aumenta a 1.4rem o más si querés más impacto */
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.btn-reserva {
     display: inline-block;
     background-color: #e74c3c;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-top: 20px;
     transition: background-color 0.3s;
 }
 
-.btn:hover {
+.btn-reserva:hover {
     background-color: #c0392b;
+    color: white;
 }
 
 .principal{
-    padding: 3em 0;
+    padding: 3em 1em;
     background: #fefefe;
-    width: 940px;
+    max-width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .titulo-principal{
     text-align: center;
-    font-size: 2em; /*2em le estamos diciendo que queremos dos veces el tamaño padron del navegador*/
+    font-size: 3em; /*2em le estamos diciendo que queremos dos veces el tamaño padron del navegador*/
     margin: 0 0 1em;
     clear: left;
 }
 
 .principal p{
     margin: 0 0 1em;
+    font-size: 1.2rem; /* o por ejemplo 18px */
+    line-height: 1.6;
 }
 
 .principal strong{
@@ -116,6 +127,62 @@ section {
 }
 
 
+.catalogo-salones {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.salones-container {
+    padding-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.salon-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.salon-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.salon-card h3 {
+    margin: 10px 0 5px;   
+}
+
+.salon-card p {
+    font-size: 14px;
+    margin: 4px 0;
+    text-align: left;
+}
+
+.btn-card {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-card:hover {
+    background-color: #c0392b;
+    color: #fff;
+}
 
 
 
